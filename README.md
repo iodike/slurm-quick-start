@@ -5,7 +5,7 @@ Quick start to SLURM.
 
 ### 1. Clone image
 Clone new *Enroot* image from existing images.
-See [example](`/examples/custom-software/clone`).<br>
+See [example](/examples/custom-software/clone).<br>
 
 After calling below command, an interactive shell spawns, where you can install your required libraries.
 When you're finished close the shell via `exit`. The cloned image will be created and is available under `/netscratch/$USER/`.<br>
@@ -24,7 +24,7 @@ Note:
 
 ### 2. Modify image
 Modify your own *Enroot* image.
-See [example](`/examples/custom-software/modify`).<br>
+See [example](/examples/custom-software/modify).<br>
 
 Same procedure as for [image cloning](#clone-images).
 
@@ -45,7 +45,7 @@ Example:
 
 ### 1. Simple single run
 Start a single-GPU job.
-See [example](`examples/running-jobs/single-job`).<br>
+See [example](examples/running-jobs/single-job).<br>
 
 This script requires to be set in a directory `scripts` next to the script which is to be called.<br>
 The arguments `<args>` passed with `start.sh` will be passed to your `run.sh` and can be accessed accordingly via `$1, $2, ...`.
